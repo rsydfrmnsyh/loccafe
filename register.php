@@ -83,7 +83,7 @@ $conn->close();
     <div class="header_section">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="logo"><a href="index.php"><img src="logo2.png"></a></div>
+                <div class="logo"><a href="index.php"><img src="images/logo2.png"></a></div>
                 </button>
             </nav>
         </div>

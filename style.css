@@ -48,7 +48,7 @@ body{
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(caffe1.jpg);
+    background-image: url(images/caffe1.jpg);
     height: 100%;
     background-size: 100%;
     padding: 10px 0px 25px 0px;
@@ -160,7 +160,7 @@ body{
 }
 
 #footer {
-    background-image: url(footerpage.png);
+    background-image: url(images/footerpage.png);
     font-weight:bold;
     font-size: 18px;
     margin-top: auto;
@@ -222,7 +222,7 @@ a:link {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-image: url("cafe-bg.jpg");
+    background-image: url("images/cafe-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

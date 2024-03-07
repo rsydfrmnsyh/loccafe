@@ -32,7 +32,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
     <div class="header_section">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="logo"><a href="index.php"><img src="logo2.png"></a></div>
+                <div class="logo"><a href="index.php"><img src="images/logo2.png"></a></div>
                 <p style='color: white;D'>Hello, <?php echo htmlspecialchars($username); ?>!</p>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -61,7 +61,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
             <div class="container reveal fade-right">
             <div class="row" id="content">
                 <div style="font-weight: 600; font-size: 18px;">
-                    <img src="arabica.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
+                    <img src="images/arabica.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
                     <h3 style="color: #48b688; margin-top: 10px;">%ARABICA Cafe</h3></li>
                     <p>Located in Senayan, Kebayoran Baru, South Jakarta, %ARABICA Cafe comes in as one of our picks for an amazing cafe for hanging out, offering plenty of unique ice cream coffees as well as baked goods, although, coming in at a higher average price than other cafes.</p>
                     <P>Address : Ashta district 8 ground floor, RT.8/RW.3, Senayan, Kebayoran Baru, South Jakarta City Jakarta 12190</P> 
@@ -79,7 +79,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
         <div class="container reveal fade-left">
             <div class="row" id="content">
                 <div style="font-weight: 600; font-size: 18px;">
-                    <img src="shisacafe.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
+                    <img src="images/shisacafe.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
                     <h3 style="color: #48b688; margin-top: 10px;">Shisa Cafe</h3></li>
                     <p>Shisa Cafe, being one of the most renowned cafe in Jakarta as well as being 20 years in business, there's no surprise if a lot of people recognize this cafe immediately. Offering unique lebanese cuisine as well as coffee, this cafe is sure to give you a breath of fresh air from your daily life.</p>
                     <P>Address : Town Square, Jl. TB Simatupang No.17, RT.2/RW.1, West Cilandak, Kec. Cilandak, South Jakarta Citt, Jakarta 12430</P> 
@@ -97,7 +97,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
         <div class="container reveal fade-right">
             <div class="row" id="content">
                 <div style="font-weight: 600; font-size: 18px;">
-                    <img src="cecemuwe.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
+                    <img src="images/cecemuwe.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
                     <h3 style="color: #48b688; margin-top: 10px;">Cecemuwe Cafe</h3></li>
                     <p>With an amazing atmosphere as well as relaxing views, Cecemuwe Cafe gives not only a good environment to relax and do student work or hang out with friends. Not only that, they also provide service for events making it one of our top choices.</p>
                     <P>Address : Jl. Hang Jebat IX No. 6 Kebayoran Baru, South Jakarta City, Jakarta, Indonesia, 12120</P> 
@@ -116,7 +116,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
         <div class="container reveal fade-left">
             <div class="row" id="content">
                 <div style="font-weight: 600; font-size: 18px;">
-                    <img src="gordicafe.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
+                    <img src="images/gordicafe.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
                     <h3 style="color: #48b688; margin-top: 10px;">Gordi Cafe</h3></li>
                     <p>Not only does Gordi Cafe offer amazing service and quality coffee, they also offer freshly roasted coffee beans for the coffee enthusiasts out there. Very spacious but also cozy, you can just go and hang out here on the weekends, with friends, family, etc.</p>
                     <P>Address : Jl. Jeruk Purut Dalam Nomor 25, RT.6/RW.3, East Cilandak, Ps. Minggu, South Jakarta City, Jakarta 12560</P> 
@@ -135,7 +135,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
         <div class="container reveal fade-right">
             <div class="row" id="content">
                 <div style="font-weight: 600; font-size: 18px;">
-                    <img src="brunocafe.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
+                    <img src="images/brunocafe.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
                     <h3 style="color: #48b688; margin-top: 10px;">BRUNO Cafe in the park</h3></li>
                     <p>BRUNO Cafe in the park gives off a very comfortable and homey environment, perfect for lunch or just spending some free time relaxing. Although at first it seems more of a restaurant, it also has a cafe inside making it a 2 for 1 deal.</p>
                     <P>Address : Sunshine Park, Gripastudio, Jl. Griya Tapa Jl. Taman Margasatwa Raya No.9G, Jakarta 12550</P> 
@@ -155,7 +155,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
         <div class="container reveal fade-left"> 
             <div class="row" id="content">
                 <div style="font-weight: 600; font-size: 18px;">
-                    <img src="JCH.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
+                    <img src="images/JCH.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
                     <h3 style="color: #48b688; margin-top: 10px;">Jakarta Coffee House</h3></li>
                     <p>Jakarta Coffee House is one of the iconic cafes in Jakarta as it gives off a greenhouse aesthetic, you can enjoy being mesmerized in the bustling streets of Jakarta while relaxing with your cup of coffee. If you're lucky and there's not alot of people, you can enjoy relaxing even more as it is a beautiful place to hang out.</p>
                     <P>Address : Jl. Cipete Raya No.2, RT.8/RW.4, South Cipete, Kec. Cilandak, South Jakarta City, Jakarta 12410</P> 
@@ -174,7 +174,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
         <div class="container reveal fade-right">
             <div class="row" id="content">
                 <div style="font-weight: 600; font-size: 18px;">
-                    <img src="bukanruang.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
+                    <img src="images/bukanruang.jpg" style="padding: 15px; float: left; width: 420px; height: 300px;">
                     <h3 style="color: #48b688; margin-top: 10px;">Bukan Ruang, Kemang</h3></li>
                     <p>This cafe located in Kemang is almost like a hole in a wall, giving off a small but cozy environment making you feel cozy and relaxed. A perfect place to go when you want to enjoy your weekends or maybe hang around with friends, as well as doing schoolwork.</p>
                     <P>Address : Jl. Kemang Raya No.29B, RT.6/RW.1, Bangka, Kec. Mampang Prpt, South Jakarta City, Jakarta 12730</P> 

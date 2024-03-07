@@ -33,7 +33,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
     <div class="header_section">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="logo"><a href="index.php"><img src="logo2.png"></a></div>
+                <div class="logo"><a href="index.php"><img src="images/logo2.png"></a></div>
                 <p style='color: white;'>Hello, <?php echo htmlspecialchars($username); ?>!</p>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -80,7 +80,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="about_img"><img style="height: 450px; vertical-align: middle;" src="homepg.png"></div>
+                <div class="about_img"><img style="height: 450px; vertical-align: middle;" src="images/homepg.png"></div>
               </div>
            </div>
         </div>
@@ -93,7 +93,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
         <div class="flex-container reveal fade-bottom">
             <div class="row" id="rec1" >
                 <div class="col-12" >
-                    <img src="gordicafe.jpg" style="width: 400px; height: 250px;">
+                    <img src="images/gordicafe.jpg" style="width: 400px; height: 250px;">
                     <ul>
                         <li><h3 style="color: #48b688; margin-top: 10px;">Cafe Gordi</h3></li>
                     </ul>
@@ -102,7 +102,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
             </div>
             <div class="row" >
                 <div class="col-12" id="rec2">
-                    <img src="shisacafe.jpg" style="width: 400px; height: 250px;">
+                    <img src="images/shisacafe.jpg" style="width: 400px; height: 250px;">
                     <ul>
                         <li><h3 style="color: #48b688;margin-top: 10px;">Shisa Cafe</h3></li>
                     </ul>
@@ -111,7 +111,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Guest';
             </div>
             <div class="row">
                 <div class="col-12" id="rec3">
-                    <img src="cecemuwe.jpg" style="width: 400px; height: 250px;">
+                    <img src="images/cecemuwe.jpg" style="width: 400px; height: 250px;">
                     <ul>
                         <li><h3 style="color: #48b688; margin-top: 10px;">Cecemuwe Cafe</h3></li>
                     </ul>
