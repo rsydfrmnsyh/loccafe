@@ -1,0 +1,247 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #48b688;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #48b688;
+}
+
+.navbar {
+    padding: 20px 1rem;
+    display : flex;
+    justify-content : flex-end;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    font-size: 25px;
+    color: #fff;
+}
+
+.header_section {
+    width: 100%;
+    float: left;
+    background-color: #000000;
+    height: auto;
+    background-size: 100%;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+#navbarNav {
+    display : flex;
+    justify-content : flex-end;
+}
+
+.banner_section {
+    width: 100%;
+    float: left;
+    background-image: url(caffe1.jpg);
+    height: 100%;
+    background-size: 100%;
+    padding: 10px 0px 25px 0px;
+    background-repeat: no-repeat;
+}
+
+.banner_taital {
+    width: 100%;
+    float: left;
+    padding: 100px 0px;
+    height: 600px;
+}
+
+.outstanding_text {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    color: #48b688;
+    padding-bottom: 0px;
+}
+
+.coffee_text {
+    width: 100%;
+    float: left;
+    font-size: 75px;
+    color: #f76d37;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.there_text {
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    margin: 0px;
+    padding-bottom: 25px;
+}
+.about_section {
+    width: 100%;
+    float: left;
+    margin-top : 150px;
+    margin-bottom: 180px;
+}
+
+.about_taital_main {
+    width: 100%;
+    float: left;
+    padding: 120px 0px;
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #48b688;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #4c4c4b;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #4c4c4b;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+#main {
+    margin-bottom: 150px;
+}
+
+.flex-container {
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow : 4;
+}
+
+.container-fluid .flex-container .row .col-12 p {
+    display : flex;
+    flex-wrap: wrap;
+    width: 400px;
+    font-size: 20px;
+}
+@media (max-width: 1000px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+.flex-container > div {
+    margin : 10px;
+}
+
+.img {
+    max-width : 100%;
+    height : auto;
+}
+
+#footer {
+    background-image: url(footerpage.png);
+    font-weight:bold;
+    font-size: 18px;
+    margin-top: auto;
+}
+#footer-text {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+.reveal{
+    position: relative;
+    opacity: 0;
+}
+.reveal.active{
+    opacity: 1;
+}
+.active.fade-bottom {
+    animation: fade-bottom 0.7s ease-in;
+}
+.active.fade-right {
+    animation: fade-right 0.7s ease-in;
+}
+.active.fade-left {
+    animation: fade-left 0.7s ease-in;
+}
+@keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+@keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+@keyframes fade-left {
+    0% {
+      transform: translateX(0);
+      opacity: 0;
+    }
+    80% {
+      transform: translateX(100px);
+      opacity: 1;
+    }
+}
+
+#cafelist {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-image: url("cafe-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.col-12 {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+  
+.col-12:hover {
+    opacity: 0.5;
+}
+  
+.row {
+    display: flex;
+}
+
+#content {
+    background-color: white;
+    margin-bottom: 40px;
+}
